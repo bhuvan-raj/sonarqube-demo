@@ -13,7 +13,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/<your-repo>/java-demo.git'
+                git 'https://github.com/bhuvan-raj/sonarqube-demo.git'
             }
         }
 
